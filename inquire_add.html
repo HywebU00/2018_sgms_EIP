@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-TW">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>內政部移民署移民資訊雲端服務應用系統入口網</title>
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/design.css" />
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css" /><!-- 友善列印用 -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/styleswitcher.js"></script><!-- 切換大、中、小字形-->
+<script type="text/javascript" src="js/multimenu.js"></script><!-- 滑出選單 -->
+<!-- 滑出選單 multimenu.js：此程式修改過，必須與styleswitcher.js同時存在才能正常作用 -->
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<![endif]-->
+</head>
+
+<body><a name="top" id="top"></a>
+<div class="wrap mpwrap">
+<div class="top">
+<header class="header">
+<h1><a href="mp.html" title="內政部移民署移民資訊雲端服務應用系統入口網"><img src="publicData/logo_h1a.png" alt="內政部移民署移民資訊雲端服務應用系統入口網" /></a></h1>
+<div class="loginTime">登入時間：2016-09-09  10:30:36 AM<!--end of class="loginTime"--></div>
+<ul class="Ribbon">
+	<li><a href="#">登出</a></li><li><a href="#">修改密碼</a></li>
+<!--end of class="Ribbon"--></ul>
+<div class="userProfile"><a href="#">入口網管理者<span>系統設設計科</span><em>陳大功<em></a><!--end of class="userProfile"--></div>
+<!--end of class="header"--></header>
+<!--end of class="top"--></div>
+<table class="layout" summary="排版表格">
+<tr>
+<td class="leftbg">
+<div class="menubg">
+<ul><!--第一層-->
+	<li><a href="#">公布欄維護</a></li>
+    <li><a href="#">共享文件新增</a></li>
+    <li><a href="#">共享文件維護</a></li>
+    <li><a href="#">簡訊維護</a></li>
+    <li><a href="#">簡訊接收狀態查詢</a></li>
+    <li class="here"><a href="#">假日檔維護</a>
+    <ul><!--第二層-->
+    	<li><a href="#">第二層維護</a></li>
+        <li><a href="#">第二層維護</a></li>
+        <li><a href="#">第二層維護</a></li>
+    </ul>
+    </li>
+    <li><a href="#">群組維護</a></li>
+    <li><a href="#">外部系統主檔維護</a></li>
+    <li><a href="#">使用者外部系統授權檔</a></li>
+    <li><a href="#">使用者主檔維護</a></li>
+    <li><a href="#">中港澳線上申辦系統</a></li>
+</ul>
+<!--end of class="menubg"--></div>
+<!--end of class="leftbg"--></td>
+<td class="center">
+<div class="main">
+<div class="Search">
+<h2><span>公佈欄訊息管理-新增</span></h2>
+<section class="styleTb">
+<form role="form"> 
+<table summary="">
+<tr>
+<th><label>標題：</label></th>
+<td><input name="groupid" type="text" class="form-control w70" id="groupid" placeholder="placeholder" value="海協會"></td>
+</tr>
+<tr>
+<th><label>公告日期：</label></th>
+<td>
+<input type="text" class="form-control w70" value="2015/10/01" ><span class="btnCalendar"><a href="#"><img src="images/icon_Calendar.png" alt="選擇日期" /></a></span>
+</td>
+</tr>
+<tr>
+<th><label>有效期限：</label></th>
+<td>
+<input type="text" class="form-control w70" value="2015/10/01" ><span class="btnCalendar"><a href="#"><img src="images/icon_Calendar.png" alt="選擇日期" /></a></span>
+</td>
+</tr>
+<tr>
+<th><label>發布單位：</label></th>
+<td>入出國事務組陸務科</td>
+</tr>
+<tr>
+<th><label>重要性：</label></th>
+<td>
+<ul class="Radio">
+<li><input type="radio" name="optionsRadiosInline" id="optionsRadiosInline1" value="option1" checked><label class="radio-inline">重要</label></li>
+<li><input type="radio" name="optionsRadiosInline" id="optionsRadiosInline2" value="option2"><label class="radio-inline">一般</label></li>
+</ul>
+</td>
+</tr>
+<tr>
+<th><label>內容：</label></th>
+<td><textarea class="form-control w70" id="textarea" name="textarea">default text</textarea></td>
+</tr>
+<tr>
+<th><label>公告對象：</label></th>
+<td>
+<p>以下群組</p>
+<ul class="Checkbox">
+<li><input name="input" type="checkbox" value="" checked><label>入出國事務組入出國服務科</label></li>
+<li><input name="input2" type="checkbox" value=""><label>入出國事務組陸務科</label></li>
+<li><input name="input3" type="checkbox" value=""><label>移民事務組移民規劃科</label></li>
+<li><input name="input4" type="checkbox" value="" checked><label>移民事務組居留定居一科</label></li>
+<li><input name="input5" type="checkbox" value=""><label>國際事務組國際服務科</label></li>
+<li><input name="input6" type="checkbox" value=""><label>國際事務組協管科</label></li>
+</ul>
+</td>
+</tr>
+</table>
+<section class="butCenter">
+<button type="reset" onClick="" class="btn">回查詢頁</button>
+<button type="submit" onClick="" class="btn">儲存</button>
+<button type="reset" onClick="" class="btn">清除</button>
+<!--end of class="butCenter"--></section>
+
+</form>
+<!--end of class="styleTb"--></section> 
+<!--end of class="Search"--></div>
+<!--end of class="main"--></div>
+<!--end of class="center"--></td>
+</tr>
+<!--end of class="layout--></table>
+
+<footer class="footer">
+<section>
+<p>內政部移民署 版權所有 &copy; NATIONAL IMMIGRATION AGENCY 100-66   台北市廣州街15號<br />
+移民署總機電話：(02)2388-9393（行政機關洽公服務，人工代轉接署本部各組、室電話）</p>
+</section>
+<!--end of class="footer"--></footer>
+
+</body>
+<!--end of class="wrap mpwrap"--></div>
+</html>
